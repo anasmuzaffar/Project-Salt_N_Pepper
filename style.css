@@ -1,0 +1,94 @@
+
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+   
+}
+
+
+li, a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+   
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 110px;
+}
+
+.logo {
+    cursor: pointer;
+   
+}
+
+.nav__links {
+    list-style:none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 19px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: blue;
+}
+
+.button_Ordernow {
+    padding: 19px 30px;
+    background-color: #ed1c24;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+    border: 1px solid white;
+}
+
+.button_Ordernow:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+
+
+.button_Franchise {
+    padding: 19px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+    border: 1px solid white;
+}
+
+.button_Franchise:hover {
+    background-color: #ed1c24;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
